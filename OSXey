@@ -15,19 +15,19 @@ ram="$((mem/1000000000)) GB"
 disk=$(df | sed -n 2p | awk '{print $5}')
 
 echo "
-
-                  ,# 
-                ####              User: $user
-                ##\"               Hostname: $hostname
-       ,######,   ,######,        Distro: $distro
-     #####################\"       Kernel: $kernel
-    ####################\"         Uptime: $uptime
-    ####################          Shell: $shell
-    ####################          Terminal: $terminal
-    #####################,        Brew Packages: $packages
-     ######################       CPU: $cpu
-      ###################\"        Memory: $ram
-        ################'         Disk: $disk
+                     ,
+                  ,##; 
+                 ####              User: $user
+                ;#\"                Hostname: $hostname
+       ,#####;,   ,;#####;,        Distro: $distro
+     ######################\"       Kernel: $kernel
+    #####################\"         Uptime: $uptime
+    #####################          Shell: $shell
+    #####################          Terminal: $terminal
+    ######################,        Brew Packages: $packages
+     #######################       CPU: $cpu
+      ####################\"        Memory: $ram
+        #################'         Disk: $disk
          \"####\"\"\"\"####\"
 
 "
