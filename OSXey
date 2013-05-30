@@ -14,6 +14,7 @@ mem=$(sysctl -n hw.memsize)
 ram="$((mem/1000000000)) GB"
 disk=$(df | sed -n 2p | awk '{print $5}')
 
+# Art
 echo "
                      ,
                   ,##; 
