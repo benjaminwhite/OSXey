@@ -17,7 +17,6 @@ An Archey clone for OSX.
          "####""""####"
 
 ##Thanks
----
 I would like to give special thanks Archey's original author, [djmelik](https://github.com/djmelik/archey).
 
 I would also like to thank [onlythefinestwilldo](https://github.com/onlythefinestwilldo/Quality.Junk)/[joshfinnie](https://github.com/joshfinnie/archey-osx) for the base OSX script.
